@@ -15,7 +15,7 @@ provider "azurerm" {
 
 resource "azurerm_resource_group" "rg" {
   name     = "rg-a09-demo"
-    location = "eastus2"
+  location = "eastus2"
 }
 
 resource "azurerm_storage_account" "sa" {
