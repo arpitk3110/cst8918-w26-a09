@@ -13,6 +13,7 @@ provider "azurerm" {
   features {}
 }
 
+# Resource group for A09 testing
 resource "azurerm_resource_group" "rg" {
   name     = "rg-a09-demo"
   location = "eastus2"
